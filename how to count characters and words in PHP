@@ -1,0 +1,6 @@
+<?php
+if (isset($_POST['chr'])) {
+echo 'Total Charters:- '.strlen ($_POST['chr']);//With spaces
+echo '<br>'.'Total Words:- '.str_word_count ($_POST['chr']);//Count words
+}
+?>
